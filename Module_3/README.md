@@ -3,9 +3,9 @@
 Here I, a candidate for the Data Analytics MS at Yeshiva University, was asked to do the following, in partial completion of the requirements of my Python class:
 
 * Create a README.md (this file!)
-* Create a [Jupyter Notebook](Assignment_2.ipynb)
+* Create a [Jupyter Notebook](Assignment_3.ipynb)
 
-In the [Jupyter Notebook](Assignment_2.ipynb), I'm going to do the following:
+In the [Jupyter Notebook](Assignment_3.ipynb), I'm going to do the following:
 
 * Reproduce all the things that I did in the [last module](../Module_2)
 
