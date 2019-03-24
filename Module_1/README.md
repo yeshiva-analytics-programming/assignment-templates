@@ -38,5 +38,5 @@ In this Module, I've been asked to provide the following:
 
 This folder contains two files:
 
-* [Pseudocode for the assignment (optional)](Pseudocode_Assignment_1.ipynb)
+* [Pseudocode for the assignment (optional)](Pseudocode_Assignment_1.md)
 * [My code](Assignment_1.ipynb)
