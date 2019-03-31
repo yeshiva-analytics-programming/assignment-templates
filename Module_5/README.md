@@ -22,24 +22,16 @@
 
 In this Module, I've been asked to do the following:
 
+You are a data analyst for a brand-new New York City energy efficiency program.  Your role at this early stage of the project is to gather, explore, and describe the data coming from NYC data providers.  You should make a Jupyter notebook that is aimed at an intelligent layperson -- someone who isn't a data analyst like you.  They should understand what you're doing and why it matters, even if they don't totally understand the code itself.
 
 Create a notebook that:
 
-* Includes a DataFrame representing student performance, with at least 10 rows.  This DataFrame will contain several (fabricated) series of at least length 10 you create, namely:
-  - Student id (5-digit number, randomly assigned using numpy) -- this is your DataFrame index, or row name
-  - Student first names
-  - Student last names
-  - Last term’s math grades (70-100, randomly assigned using numpy)
-  - This term’s math grades (70-100, randomly assigned using numpy)
-  - Last term’s language grades (70-100, randomly assigned using numpy)
-  - This term’s language grades (70-100, randomly assigned using numpy)
+* Includes a DataFrame created by importing data from the New York City data portal.  Since we haven't covered data ingest formally yet, please include the following code that will import this data directly:
+nyc_gas =  pd.read_csv("https://data.cityofnewyork.us/api/views/uedp-fegm/rows.csv?accessType=DOWNLOAD")
 * Includes series and dataframe operations to determine:
-  - Highest and lowest math grade (across both terms)
-  - Overall (mean) change in math grades from last term to this term (take the mean of each student’s improvement)
-  - Highest and lowest language grade (across both terms)
-  - Overall (mean) change in language grades from last term to this term  (take the mean of each student’s improvement)
-  - Uses .loc to find a specific grade for a specific student ID number
-  - Uses .iloc to find a specific data value by integer location (e.g. 4th entry in the 3rd column)
-  - Sorts and prints the data using student last name
-
-As always, I'm instructed to use markdown cells throughout this assignment in order explain to a naive stakeholder what I'm doing along the way.
+  - The size of the data
+  - The column labels.  Are there problematic or surprising column labels?  What would you suggest for column labels to use instead?  Rename the DataFrame with new labels that will be easier to use.  Use pd.DataFrame.rename to do this.  You may have to search online or use the question mark help utility in python to get the details on how to use rename.  This is an intentional stretch beyond what was covered in the chapter.
+  - How many distinct building types are included, and their median energy consumption (in GJ).  Are there building types that should be combined?   One method you might consider (although you can use more advanced techniques if you want) is to make new data frames for each building type, then analyze these 'daughter' data frames.
+  - What building type has the highest median GJ consumption?  The lowest?  Are you surprised?
+  - How many utility data reporters are included, and the mean and standard deviation of their energy consumption.
+* Suggestions for data improvement.  You may have noticed a few things that could have been done better in the data collection.  Mention them!
