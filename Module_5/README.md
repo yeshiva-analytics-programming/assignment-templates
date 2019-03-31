@@ -9,9 +9,13 @@
 *You'll also see links to files within this folder -- things like pseudocode (optional for you to do), code, and data.  We suggest that if you're stuck in an assignment, you do the following:*
 
 * *Re-read the assignment description in Canvas*
+* *Try writing out some pseudocode (logical steps that are small and break down the task, but don't use actual code)*
 * *Take a look at the corresponding README in this repository to see if that is enough to help you get un-stuck*
 * *Look at the [pseudocode](#pseudocode), to see just the logic, without the code*
 * *Only if absolutely necessary: look at the [code sample](Assignment_5.ipynb)*
+* *Problems with GitHub rendering the code sample?  Use the [quick workaround described in this repo's README](../README.md#problems-in-github)
+* *Make use of resources like Stack Overflow, to practice how to get help when you're not in a class situation*
+* *Still stuck?  Ask for help in Canvas!*
 
 ---------
 
@@ -22,7 +26,11 @@
 
 In this Module, I've been asked to do the following:
 
+### Scenario
+
 You are a data analyst for a brand-new New York City energy efficiency program.  Your role at this early stage of the project is to gather, explore, and describe the data coming from NYC data providers.  You should make a Jupyter notebook that is aimed at an intelligent layperson -- someone who isn't a data analyst like you.  They should understand what you're doing and why it matters, even if they don't totally understand the code itself.
+
+### Assignment
 
 Create a notebook that:
 
