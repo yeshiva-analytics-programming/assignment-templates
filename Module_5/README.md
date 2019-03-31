@@ -35,3 +35,22 @@ nyc_gas =  pd.read_csv("https://data.cityofnewyork.us/api/views/uedp-fegm/rows.c
   - What building type has the highest median GJ consumption?  The lowest?  Are you surprised?
   - How many utility data reporters are included, and the mean and standard deviation of their energy consumption.
 * Suggestions for data improvement.  You may have noticed a few things that could have been done better in the data collection.  Mention them!
+
+## Pseudocode
+
+Here's some logic to help guide me:
+
+* First, get the data, using the provided command.
+* Use `head`, `shape`, and `columns` methods to do an initial first pass at looking at the data
+* Use `rename` to change column labels.  I suspect they will be kind of bad, given the assignment description, so I should come up with better label ideas.
+* Figure out how many building types there are, using `unique`
+* For each building type:
+  - Make a new DataFrame that includes only that building type
+  - Isolate the consumption in GJ column and find the median value
+* From all those building types, figure out which one has the highest and lowest median value
+* Figure out how many utility reporters there are, using `unique`
+* For each utility reporter:
+  - Make a new DataFrame that includes only that utility
+  - Get the mean and standard deviation of the GJ column
+* Along the way, note things that surprise me or are difficult to work with, since I'm supposed to make suggestions for improvement for data collection.  
+
