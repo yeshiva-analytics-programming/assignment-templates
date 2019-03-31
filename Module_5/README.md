@@ -10,8 +10,8 @@
 
 * *Re-read the assignment description in Canvas*
 * *Take a look at the corresponding README in this repository to see if that is enough to help you get un-stuck*
-* *Look at the pseudocode, to see just the logic, without the code*
-* *Only if absolutely necessary: look at the code sample*
+* *Look at the [pseudocode](#pseudocode), to see just the logic, without the code*
+* *Only if absolutely necessary: look at the [code sample](Assignment_5.ipynb)*
 
 ---------
 
