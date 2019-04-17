@@ -34,7 +34,7 @@ Create a notebook that:
 
 * Ingests the .arff data found at https://archive.ics.uci.edu/ml/datasets/phishing+websites#
 * Note: You'll want to go into the "Data Folder" section to find the Training Dataset.arff file.  Then you can either download that file locally and include that data in your GitHub (maybe in a 'data' subdirectory) or write code in your notebook that will grab the code directly from the website.
-* Describes the data using metadata found in the documentation on the same website mentioned above.
+* Describes the data using metadata found in the documentation on the same website mentioned above.  Just explain what each column name means, and what the possible values are.  You don't have to explain what each value means (e.g. what a -1, 0, or 1 indicates).
 * Uses pandas or numpy to support an analysis of the relationship between one or more characteristics and the outcome (phishing / non-phishing).  You might want to do a correlation, for example, or a table that shows a relationship, and describe what you find. 
 * Splits the dataframe into two new dataframes -- one for phishing and one for non-phishing websites
 * Saves those two dataframes into .csvs for later use
