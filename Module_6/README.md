@@ -46,12 +46,12 @@ Create a notebook that:
 
 * Ingests fixed-with data at https://catalog.data.gov/dataset/climate-prediction-center-cpc-monthly-u-s-selected-cities-precipitation-summary 
 * Note: You'll see two "text file" links, the second of which is what you want (the first one has a broken link!).  Stuck?  Try this link for the data itself: https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/cdus/prcp_temp_tables/mctyprcp.txt.  Then you can either download that file locally and include that data in your GitHub (maybe in a 'data' subdirectory) or write code in your notebook that will grab the code directly from the website.
-* Cleans up the data as required, removing any unwanted rows
-* Describes the data using metadata found in the documentation on the same website
+* Cleans up the data as required, removing any unwanted rows at the top  and bottom and splitting any columns that need it (hint: you will need to split 2 columns that each have 2 columns worth of data  "stuck together".  You will want to use pandas' .str method.)
+* Describes the data globally (no need to go column-by-column this time) using metadata found in the documentation on the same website (things like who collected the data and what it measures)
 * Uses pandas to create a more easily read version of the data, with self-documenting variable names
-* Aggregates data by state and presents state-by-state precipitation data in a pandas dataframe, in alphabetical order by state name
-* Reports to a climate stakeholder which states stand out and why
-* Make sure you use markdown cells to begin your notebook with an appropriate header and explain to a naive stakeholder what you’re doing along the way.
+* Writes this neatened-up dataset to file as as csv
+* Identifies which city has the lowest year to date percent-of-normal (pct nml) value and which has the highest
+
 
 ## Pseudocode
 
