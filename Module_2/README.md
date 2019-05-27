@@ -8,6 +8,7 @@ Here I, a candidate for the Data Analytics MS at Yeshiva University, was asked t
 In the [Jupyter Notebook](Assignment_2.ipynb), I'm going to do the following:
 
 * Create a list of all lower case letters and a separate list of the numbers 1-26.
+* Use a for loop to print out which numbers in my list are divisible by 4
 * Print both lists and show their types.
 * Using zip, create a list of tuples, where each tuple consists of the lower case letter and its numerical equivalent, 1-26.
 * Print the list of tuples, the type of the list, and the type of the first element in that list.
